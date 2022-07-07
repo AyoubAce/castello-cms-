@@ -1,0 +1,27 @@
+{
+  "name": "castello",
+  "version": "1.0.0",
+  "description": "images and menu manager",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run start --prefix ./frontend",
+    "build": "react-scripts build --prefix ./frontend"
+  },
+  "author": "Ayoub Khribich",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1118.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
